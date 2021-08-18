@@ -1,5 +1,3 @@
-// Code ClickityClick Component Here
-// src/components/ClickityClick.js
 import React from 'react';
 
 class ClickityClick extends React.Component {
@@ -14,10 +12,10 @@ class ClickityClick extends React.Component {
 
   handleClick = () => {
     this.setState({
-        hasBeenClicked: true
+      hasBeenClicked: true
     })
-  };
-
+  }
+  
   render() {
     return (
       <div>
